@@ -1,0 +1,17 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "description": "This is the frontend part of Yoga saloon website. This repository use HTML, Sass for CSS & JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/sass/main.scss:./src/css/style.css"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Sass",
+    "JavaScript"
+  ],
+  "author": "Killian Lairet",
+  "license": "ISC"
+}

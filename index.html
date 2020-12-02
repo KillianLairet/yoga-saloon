@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Saloon</title>
+
+    <meta name="author" content="Killian Lairet">
+    <meta name="description" content="Bienvenue chez Yoga Saloon ! Votre salon de yoga détente et apéro rigolo.">
+
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="./src/img/logo.ico">
+</head>
+<body>
+<div class="pg-ctn">
+    <div class="banner">
+        <header>
+            <figure>
+                <img src="./src/img/logo.png" alt="Logo de Yoga Saloon">
+            </figure>
+            <nav>
+                <ul>
+                    <li><a href="#" class="text_white">Concept</a></li>
+                    <li><a href="#" class="text_white">Cours</a></li>
+                    <li><a href="#" class="text_white">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner__content">
+            <h1 class="text_white">Yogasaloon</h1>
+            <p class="text_white banner-content-p">Votre salon de yoga détente et apéro rigolo !</p>
+            <button class="btn btn--banner">Découvrir</button>
+        </div>
+    </div>
+    <main>
+        <div class="concept">
+            <h2>Le concept <strong>Yogasaloon</strong></h2>
+            <div class="concept__content concept__content--tablet">
+                <div>
+                    <h3>Profitez d'une séance de yoga vinyasa d'1h</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus maximus blandit. Pellentesque in rhoncus magna, eu accumsan massa. Sed pellentesque felis sit amet dui posuere, sed placerat lorem fermentum.</p>
+                </div>
+                <figure>
+                    <img src="./src/img/mat@2x.png" alt="Icone de tapis de yoga">
+                </figure>
+            </div>
+            <div class="concept__content concept__content--reverse">
+                <div>
+                    <h3>Détendez-vous après la séance en choisissant votre boisson parmi un large choix</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus maximus blandit. Pellentesque in rhoncus magna, eu accumsan massa. Sed pellentesque felis sit amet dui posuere, sed placerat lorem fermentum.</p>
+                </div>
+                <figure>
+                    <img src="./src/img/drink-list@2x.png" alt="Icone de carte de boisson">
+                </figure>
+            </div>
+            <div class="concept__content concept__content--tablet">
+                <div>
+                    <h3>Dégustez votre boisson avec des accompagnements healthy faits maison</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus maximus blandit. Pellentesque in rhoncus magna, eu accumsan massa. Sed pellentesque felis sit amet dui posuere, sed placerat lorem fermentum.</p>
+                </div>
+                <figure>
+                    <img src="./src/img/drink@2x.png" alt="Icone de coktail">
+                </figure>
+            </div>
+        </div>
+        <div class="cours">
+            <h2>Les cours <strong>Yogasaloon</strong></h2>
+            <div class="cours__content">
+                <img src="./src/img/yoga.jpg" alt="Personne qui pratique le yoga">
+                <div>
+                    <h3>Du vinyasa en veux tu en voilà</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar, justo sed consectetur pulvinar, diam arcu accumsan justo, sit amet auctor magna urna ut urna. Aliquam turpis sapien, posuere ut tincidunt eu, ullamcorper sed leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ex metus, malesuada elementum imperdiet in, fringilla sed lacus. Fusce at sodales urna.</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Contact - Suivre un cours</h2>
+            <form>
+                <div class="callback-choice">
+                    <p id="choix-date">Être rappelé : </p>
+                    <ul aria-labelledby="choix-date" role="radiogroup">
+                        <li class="btn" role="radio" aria-checked="false" tabindex="0">Aujourd'hui</li>
+                        <li class="btn" role="radio" aria-checked="false" tabindex="-1">Demain</li>
+                        <li class="btn" role="radio" aria-checked="false" tabindex="0">Plus tard</li>
+                    </ul>
+                </div>
+                <input class="inp-text" type="text" placeholder="Nom prénom"><br>
+                <input class="inp-text" type="email" placeholder="Email">
+                <div class="yoga-type-choice">
+                    <label for="yoga-select">Vous êtes intéressé par :</label>
+                    <select name="yoga-select" id="yoga-select">
+                        <option value="yoga-vinyasa">Yoga vinyasa</option>
+                        <option value="yoga-kundalini">Yoga kundalini</option>
+                        <option value="yoga-ashtanga">Yoga ashtanga</option>
+                        <option value="yoga-bikram">Yoga bikram</option>
+                        <option value="yoga-aéro">Yoga aéro</option>
+                    </select>
+                </div>
+                <input class="btn" type="submit" value="Envoyer">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="text_white">2020 &copy; KL</p>
+    </footer>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,245 @@
+/* IMPORTATION DES COULEURS */
+/* IMPORTATION DES POLICES */
+@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800&display=swap");
+/* DECLARATION DES MAPS */
+/* MIXINS FOR MEDIA QUERIES */
+body {
+  margin: 0px;
+  font-family: "Raleway", Arial;
+}
+
+.pg-ctn {
+  width: 1060px;
+  margin: auto;
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .pg-ctn {
+    width: 768px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+figure {
+  margin: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+.text_white {
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Mandali";
+  font-size: 80px;
+}
+
+h2 {
+  margin: 50px 0px;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #6e8e9b;
+}
+h2 strong {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+h2::after {
+  content: "";
+  margin: 20px 0px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-left: 5px solid #6e8e9b;
+}
+
+h3 {
+  margin: 20px 0px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.banner-content-p {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 12px;
+  box-shadow: 0px 0px 10px 0px #7f8c8d;
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn--banner:hover {
+  transform: scale(1.15);
+}
+
+header {
+  height: 100px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header figure {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header figure img {
+  height: 50%;
+}
+header nav ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header nav ul li {
+  height: 100%;
+  padding: 0px 20px;
+}
+header nav ul li a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6e8e9b;
+}
+
+.banner {
+  position: relative;
+  height: 600px;
+  background: url(../img/yogamat.jpg) no-repeat center;
+  background-size: 100%;
+}
+.banner__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner__content p {
+  margin-bottom: 20px;
+}
+
+.concept__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.concept__content--reverse {
+  flex-direction: row-reverse;
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  .concept__content--tablet {
+    flex-direction: row-reverse;
+  }
+}
+.concept__content div {
+  width: 85%;
+}
+.concept__content figure {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  box-shadow: 2px 2px 10px -2px #7f8c8d;
+  border-radius: 50%;
+}
+.concept__content figure img {
+  width: 50%;
+}
+
+.cours__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cours__content img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.cours__content div {
+  width: 65%;
+}
+
+.contact form .callback-choice {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.contact form .callback-choice ul {
+  display: flex;
+  margin-left: 10px;
+}
+.contact form .callback-choice ul li {
+  margin: 0px 5px;
+  transform: scale(0.8);
+}
+.contact form .callback-choice ul li:focus {
+  background-color: #6e8e9b;
+  color: white;
+}
+.contact form .inp-text {
+  width: 320px;
+  border: none;
+  border-radius: 14px;
+  padding: 7px 10px;
+  box-shadow: inset 2px 2px 10px -5px #7f8c8d;
+  margin-bottom: 15px;
+}
+.contact form input[type=submit] {
+  margin: 30px 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

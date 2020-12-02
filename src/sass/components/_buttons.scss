@@ -1,0 +1,16 @@
+.btn{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 12px;
+    box-shadow: 0px 0px 10px 0px $color-box-shadow;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 500ms;
+    &:hover{
+        cursor: pointer;
+    }
+    &--banner:hover{
+        transform: scale(1.15);
+    }
+}
